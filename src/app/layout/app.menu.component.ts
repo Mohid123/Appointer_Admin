@@ -60,8 +60,8 @@ export class AppMenuComponent implements OnInit {
                 icon: 'pi pi-fw pi-briefcase',
                 items: [
                     {
-                        label: 'Landing',
-                        icon: 'pi pi-fw pi-globe',
+                        label: 'Doctors',
+                        icon: 'fa fa-stethoscope',
                         routerLink: ['/landing']
                     },
                     {
@@ -86,13 +86,13 @@ export class AppMenuComponent implements OnInit {
                         ]
                     },
                     {
-                        label: 'Crud',
-                        icon: 'pi pi-fw pi-pencil',
+                        label: 'Hospitals',
+                        icon: 'fa-regular fa-hospital',
                         routerLink: ['/pages/crud']
                     },
                     {
-                        label: 'Timeline',
-                        icon: 'pi pi-fw pi-calendar',
+                        label: 'Users',
+                        icon: 'fa fa-users',
                         routerLink: ['/pages/timeline']
                     },
                     {
